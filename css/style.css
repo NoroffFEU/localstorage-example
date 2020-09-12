@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    margin: 1rem;
+    padding: 1rem;
+    background: white;
+    border: 1px solid lightgrey;
+    border-radius: 1rem;
+    min-width: 200px;
+    position: relative;
+}
+
+.product i {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 30px;
+}
+
+.product i.fa {
+    color: darkred;
+}
+
+.menu {
+    margin: 15px 0;
+}
+
+.menu a {
+    color: grey;
+    text-decoration: none;
+}
+
+.menu a.active {
+    color: darkred;
+}
